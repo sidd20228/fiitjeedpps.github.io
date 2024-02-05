@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(to bottom, #4F94CD, #63B8FF); /* Gradient background */
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  height: 150vh;
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 250px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.buttons-container button {
+  padding: 10px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 10px;
+  background-color: #001f3f; /* Dark blue color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.buttons-container button:hover {
+  background-color: #003366; /* Darker blue on hover */
+  color: blue;
+}
+
+#request-access-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50; /* Green color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#request-access-btn:hover {
+  background-color: #45a049; /* Darker green on hover */
+}

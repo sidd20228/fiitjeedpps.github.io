@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(to bottom, #4F94CD, #63B8FF); /* Gradient background */
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  height: 150vh;
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px; /* Adjust padding as needed */
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column; /* Display buttons vertically */
+  align-items: center; /* Center align buttons horizontally */
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px 0;
+  background-color: #001f3f; /* Dark blue color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #003366; /* Darker blue on hover */
+  color: blue
+}
